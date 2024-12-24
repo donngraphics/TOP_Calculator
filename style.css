@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+
+
+.main {
+    text-align: center;
+}
+
+.main h2 {
+    margin-top: -8rem;
+    font-size: 5rem;
+    color: #ffffff;
+    filter: drop-shadow(0px 0px 30px #000000);
+
+}
+
+.main h1 {
+    /* color: #971818; */
+    color: #ffffff;
+    font-size: 10rem;
+    filter: drop-shadow(0px 0px 30px #971818);
+}
+
+.main p {
+    margin-top: -3rem;
+    color: white;
+    font-size: 3rem;
+}
+
+body {
+    background-color: rgb(18, 96, 15);
+
+    background-image: linear-gradient(to bottom right, green, rgb(58, 179, 24));
+
+    background-attachment: fixed;
+}
+
+/* p {
+    color: red;
+} */
+
+#calcContainer {
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55vh;
+    width: 25vw;
+    background-color: rgb(80, 80, 80);
+    border: 5px solid black;
+    flex-wrap: wrap;
+}
+
+.btn {
+
+    /* flex: 1 1 calc(25% - 5px);
+     */
+    border: 2px solid black;
+    background-color: rgb(150, 150, 150);
+    border-radius: 10px;
+    color: white;
+    font-size: 3rem;
+}
+
+.btn:hover {
+    background-color: rgb(208, 208, 208);
+
+}
+
+.calflex {
+    flex: 1 1 calc(25% - 5px);
+}
+
+#display {
+    border: 2px solid black;
+    flex: 0 1 auto;
+    background-color: #b2b9b7;
+    height: 80px;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-top: 50px; */
+    margin-bottom: -3rem;
+
+}
+
+#display h3 {
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+    /* color: white; */
+}
+
+.operand {
+    background-color: #cfbd19;
+    color: black;
+
+}
+
+.operand:hover {
+
+    background-color: #f6df0b;
+}
