@@ -22,7 +22,7 @@ let operator
 function updateDisplay(value) {
 
     //h3.textContent = button.innerText;
-    p.textContent = "BABY STEPS";
+    //p.textContent = "BABY STEPS";
     display.innerText = value;
 
     // display.append(h3);
