@@ -87,10 +87,19 @@ body {
 
 }
 
-#display h3 {
+/* #display h3 {
     text-align: right;
     margin-right: 1rem;
     margin-top: 2rem;
+    font-size: 4rem;
+    /* color: white; */
+
+
+
+#display {
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 2rem;
     font-size: 4rem;
     /* color: white; */
 }
